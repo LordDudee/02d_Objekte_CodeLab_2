@@ -3,7 +3,7 @@ package com.cc.java;
 public class Staff {
     
     private String firstName;
-    private String familyName;
+    public String familyName;
     private String role;
     private String yearOfEntry;
     
