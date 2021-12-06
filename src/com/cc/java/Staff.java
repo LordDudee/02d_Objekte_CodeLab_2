@@ -5,11 +5,11 @@ public class Staff {
     private String firstName;
     public String familyName;
     private String role;
-    private String yearOfEntry;
+    private int yearOfEntry;
     
     
     
-    public Staff(String firstName, String familyName, String role, String yearOfEntry){
+    public Staff(String firstName, String familyName, String role, int yearOfEntry){
         
         this.firstName = firstName;
         this.familyName = familyName;
@@ -27,7 +27,7 @@ public class Staff {
             case "#role":
                 return role;
             case "#entry":
-                return yearOfEntry;
+                return Integer.toString(yearOfEntry);
             default:
                 return "noData";
         }  

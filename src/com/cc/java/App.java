@@ -4,7 +4,7 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Staff staff1 = new Staff("Michael", "Runschke", "Boss", "2017");
+		Staff staff1 = new Staff("Michael", "Runschke", "Boss", 2017);
 
 		output("Vorname: " + staff1.getInfo("#first"));
         output("Nachname: " + staff1.getInfo("#family"));
@@ -13,7 +13,7 @@ public class App {
 
 		output("-------------------------------------------------------------");
 
-		Staff staff2 = new Staff("Patrick", "Barkow", "Anwendungsentwickler", "2019");
+		Staff staff2 = new Staff("Patrick", "Barkow", "Anwendungsentwickler", 2019);
 
 		output("Vorname: " + staff2.getInfo("#first"));
         output("Nachname: " + staff2.getInfo("#family"));
@@ -22,7 +22,7 @@ public class App {
 
 		output("-------------------------------------------------------------");
 
-		Staff staff3 = new Staff("Mohamed", "Soliman", "Systemintegrator", "2019");
+		Staff staff3 = new Staff("Mohamed", "Soliman", "Systemintegrator", 2019);
 
 		output("Vorname: " + staff3.getInfo("#first"));
         output("Nachname: " + staff3.getInfo("#family"));
